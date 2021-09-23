@@ -1,11 +1,14 @@
-package com.example.hellotoast;
+package com.example.helloconstraint;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import helloconstraint.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,5 +33,22 @@ public class MainActivity extends AppCompatActivity {
         {
             mShowCount.setText(Integer.toString(mCount));
         }
+        if((mCount % 2) == 0)
+        {
+            findViewById(R.id.button_count).setBackgroundColor(Color.MAGENTA);
+        }
+        else
+        {
+            findViewById(R.id.button_count).setBackgroundColor(Color.rgb(100, 255, 100));
+        }
+    }
+
+    public void setZero(View view) {
+        mCount = 0;
+        if (mShowCount != null)
+        {
+            mShowCount.setText(Integer.toString(mCount));
+        }
+        findViewById(R.id.make0).setBackgroundColor(Color.rgb(255, 100, 100));
     }
 }

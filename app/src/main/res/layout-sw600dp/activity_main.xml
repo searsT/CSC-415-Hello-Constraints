@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.helloconstraint.MainActivity">
 
     <Button
         android:id="@+id/button_toast"
         android:layout_width="478dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
         android:background="@color/design_default_color_primary"
         android:onClick="showToast"
         android:text="@string/button_label_toast"

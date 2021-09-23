@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Hello Constraint/app/src/main/res/layout-land/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Hello Constraint/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Hello Constraint/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Toast2/app/src/main/res/layout-land/activity_main.xml" value="0.5567708333333333" />
         <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Toast2/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/StubTail/Desktop/AndroidCSC415/Toast2/app/src/main/res/layout/activity_main.xml" value="0.25" />
