@@ -35,12 +35,13 @@ public class MainActivity extends AppCompatActivity {
         }
         if((mCount % 2) == 0)
         {
-            findViewById(R.id.button_count).setBackgroundColor(Color.MAGENTA);
+            view.setBackgroundColor(Color.MAGENTA);
         }
         else
         {
-            findViewById(R.id.button_count).setBackgroundColor(Color.rgb(100, 255, 100));
+            view.setBackgroundColor(Color.rgb(100, 255, 100));
         }
+        findViewById(R.id.make0).setBackgroundColor(Color.GRAY);
     }
 
     public void setZero(View view) {
@@ -49,6 +50,6 @@ public class MainActivity extends AppCompatActivity {
         {
             mShowCount.setText(Integer.toString(mCount));
         }
-        findViewById(R.id.make0).setBackgroundColor(Color.rgb(255, 100, 100));
+       view.setBackgroundColor(Color.rgb(255, 100, 100));
     }
 }
